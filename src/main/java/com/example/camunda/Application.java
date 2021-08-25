@@ -1,4 +1,4 @@
-package cloudcode.helloworld;
+package com.example.camunda;
 
 import org.camunda.bpm.engine.RuntimeService;
 import org.camunda.bpm.spring.boot.starter.annotation.EnableProcessApplication;
@@ -16,7 +16,7 @@ public class Application {
   private RuntimeService runtimeService;
 
   public static void main(String... args) {
-    SpringApplication.run(Application.class, args);
+    SpringApplication.run(Application.class, args); 
   }
 
   @EventListener
