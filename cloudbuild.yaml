@@ -11,7 +11,7 @@ steps:
     args:
       - 'run'
       - 'deploy'
-      - 'landingpage'
+      - 'camunda'
       - '--image'
       - 'gcr.io/$PROJECT_ID/camunda:$COMMIT_SHA'
       - '--region'
