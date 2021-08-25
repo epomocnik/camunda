@@ -6,3 +6,9 @@ camunda.bpm:
     password: admin
   filter:
     create: All tasks
+
+spring:
+  cloud:
+    gcp:
+      logging:
+        enabled: true
